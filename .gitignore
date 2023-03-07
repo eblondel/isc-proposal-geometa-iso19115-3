@@ -9,10 +9,10 @@
 .Rproj.user/
 
 # produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+#vignettes/*.html
+#vignettes/*.pdf
 .Rproj.user
 
 # File gen artefacts
-*.html
-*.pdf
+#*.html
+#*.pdf
