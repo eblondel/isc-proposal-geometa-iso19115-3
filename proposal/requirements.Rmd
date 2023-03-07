@@ -8,10 +8,45 @@ An idea of what is required to make the project actually happen
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
 
+Emmanuel Blondel will lead R package enhancements and will involve as required key contributors for specific features of the present proposal, including key developers of the OSGeo community through GitHub.
+
+User community involvement: Outreach will first focus on potential contributors to improve the usability of geometa.
+
+Consulted people for this proposal writing may be contacted to get their feedback during the project implementation, and will be invited to contribute to improve geometa usability, especially in linkage with key OSGeo software projects.
+
+
 ## Processes
 <!-- 
 What processes need to be put in place e.g. codes of conduct, regular ISC meetings, handover to the community at large?
 -->
+
+### Source code management
+
+The delivery of the implemented features will comply with R Consortium ISC recommendations. As general process steps, we may mention:
+
+* Issuance of tickets and code commits into the public Github repositories; commits will be referencing ticket numbers for easy tracking of code publication.
+
+* Provision of code documentation including standard R documentation and online user manual (wiki).
+* Release of package enhancements including Github, CRAN releases, and DOIs (published with Zenodo)
+
+### Quality Assurance / Continuous Integration
+
+All implemented features will be subject to a Quality Assurance framework with unit tests (for all R functions) and integration tests (for R functions invoking Web services). These tests will be written according to the [_testthat_](https://cran.r-project.org/package=testthat) R package, made publicly available on Github and triggered at each commit through the GitHub platform (Github Actions).
+
+### Work progress monitoring
+
+Meetings with R Consortium ISC may occur (upon R Consortium ISC request) to monitor work in progress, and executive summaries may be also be provided to R Consortium ISC to report on the activities
+
+All R codes will be delivered as progressively commited and published in the public Github repository of the _geometa_ R package ([https://github.com/eblondel/geometa](https://github.com/eblondel/geometa)), under a MIT License (set since the package inception).
+
+### User community involvement
+
+* In-kind support to users will be done through the [Github geometa discussions](https://github.com/eblondel/geometa/discussions) panel, with a specific topic category set for the newly introduced ISO 19115-3 standard.
+
+* Contributions by anyone to the _geometa_ package are open and welcome. For this, contributing guidelines are available at [https://github.com/eblondel/geometa/blob/master/CONTRIBUTING.md](https://github.com/eblondel/geometa/blob/master/CONTRIBUTING.md)
+
+* Contributors to the _geometa_ project (including the main author/maintainer) are expected to follow the code of conduct available at [https://github.com/eblondel/geometa/blob/master/CODE_OF_CONDUCT.md](https://github.com/eblondel/geometa/blob/master/CODE_OF_CONDUCT.md). This code of conduct will be obviously applied for the present project.
+
 
 ## Tools & Tech
 <!--
@@ -22,13 +57,24 @@ Will cloud computing be used - if yes are there are necessary components that wi
 Are there tools or tech that don't exist that will be produced to facilitate the project?
 -->
 
+Tools and Technology required to deliver this project are already available, as follows:
+
+* ISO/TS 19115-3 schemas available at [https://schemas.isotc211.org/schemas/19115/](https://schemas.isotc211.org/schemas/19115/)
+* GitHub repository for _geometa_ R package: [https://github.com/eblondel/geometa](https://github.com/eblondel/geometa) and associated GitHub resources for Continuous Integration tests (GitHub actions)
+
 ## Funding
 <!-- 
 [TO DO] THE GUIDANCE IS PRETTY UNCLEAR, ESP IN LIGHT OF GABOR'S PROPOSAL VS AWARD SIZE
 
 -->
 
+The total estimated cost and budget requested here to R Consortium ISC is **13,750 USD** (12,500 EUR). 
+
 ## Summary
 <!--
 A summary of the requirements that contextualises the costs
 -->
+
+The funding is established based on the time spent by Emmanuel Blondel (Consultant) to carry out the developements as detailed in the _Project plan / Technical delivery_ section. Cost is based on an average daily gross rate of 550 USD (500 EUR) and a total of 25 working days.
+
+In-kind contributions are expected to be delivered in pilot use cases at national and international scale, covering various data domains (earth sciences, oceanography and marine sciences, fisheries, climate change), by collaborating with key contributors as listed the project _Signatories_.

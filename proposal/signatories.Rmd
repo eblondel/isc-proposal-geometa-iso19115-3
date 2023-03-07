@@ -6,17 +6,26 @@ An optional section would be for R-Core signatories where changes to R are propo
 -->
 
 ## Project team
-<!-- 
-Who are the people responsible for actually delivering the project if the proposal gets accepted and are already signed up and rearing to go?
--->
+
+### Emmanuel Blondel
+
+* **ORCID**: [https://orcid.org/0000-0002-5870-5762](https://orcid.org/0000-0002-5870-5762))
+* **Website**: [https://eblondel.github.io](https://eblondel.github.io)
+* **Presentation**: DevOps engineer, author of several R CRAN packages: geometa, ows4R, geosapi, geonapi, cleangeo, rsdmx, zen4R, and ocs4R; contributor/developer to Java/Python/JavaScript spatial libraries from the OSGeo community, related to ISO/OGC standards. Engineer in Agronomic and Environmental Sciences (2008, ENSAT, Toulouse, France), specialized in GIS with focus on promoting and implementing international standards and fostering open science. Currently consultant (individual micro-company) and senior GIS and R expert for the Food and Agriculture Organization of the United Nations (UN-FAO) and World Bank. Collaborates actively with scientific institutes such as IRD, Ifremer, INRAE, CNRS, and projects focusing on methodologies based on open geospatial (meta)data standards, and data access & exploration tools enabling open and reproducible science.
 
 ## Contributors
 <!-- 
 Who are the people who have actively helped with this proposal but won't necessarily be on the core project team later?
 -->
 
+* Mr [Julien Barde](https://orcid.org/0000-0002-3519-6141) - Research Engineer at [IRD](https://en.ird.fr/) - Contact: [julien.barde@ird.fr](mailto:julien.barde@ird.fr)
+* Mr [Mathias Rouan](https://letg.cnrs.fr/auteur32.html) - Research Engineer at [CNRS](https://letg.cnrs.fr) - Contact: [mathias.rouan@univ-brest.fr](mailto:mathias.rouan@univ-brest.fr)
+* Mr [Anton Ellenbroek](https://www.linkedin.com/in/anton-ellenbroek-19b4708) - Information systems analyst at [UN-FAO](https://www.fao.org) - Contact: [Anton.Ellenbroek@fao.org](mailto:Anton.Ellenbroek@fao.org)
+
+
 ## Consulted
 <!-- 
 Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
 -->
 
+TBD
