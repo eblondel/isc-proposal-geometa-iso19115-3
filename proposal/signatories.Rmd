@@ -28,4 +28,7 @@ Who are the people who have actively helped with this proposal but won't necessa
 Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
 -->
 
-TBD
+* Mr [François-Xavier Prunayre](https://www.linkedin.com/in/fxprunayre/) - Software Engineer, [FOSS4G](https://foss4g.org/) developer, PSC member & committer (GeoNetwork opensource, Talend spatial):
+
+> _ISO 19115-3 is a major step forward in geographic resources description by bridging various ISO models into a common entity. Data model (aka feature catalogue) can now be described directly in the metadata. Usage and quality are now 2 specific sections. ISO 19157 is used for quality reports and measures. ISO19115-2 for imagery is now part of the encoding. GeoNetwork is now supporting that standard and some members of the community are adopting it for their daily work eg. Service Public de Wallonie - Metawal, Ifremer - Checkpoints projects, ANZLIC._
+
