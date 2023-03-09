@@ -19,7 +19,9 @@ Who are the people who have actively helped with this proposal but won't necessa
 -->
 
 * Mr [Julien Barde](https://orcid.org/0000-0002-3519-6141) - Research Engineer at [IRD](https://en.ird.fr/) - Contact: [julien.barde@ird.fr](mailto:julien.barde@ird.fr)
+
 * Mr [Mathias Rouan](https://letg.cnrs.fr/auteur32.html) - Research Engineer at [CNRS](https://letg.cnrs.fr) - Contact: [mathias.rouan@univ-brest.fr](mailto:mathias.rouan@univ-brest.fr)
+
 * Mr [Anton Ellenbroek](https://www.linkedin.com/in/anton-ellenbroek-19b4708) - Information systems analyst at [UN-FAO](https://www.fao.org) - Contact: [Anton.Ellenbroek@fao.org](mailto:Anton.Ellenbroek@fao.org)
 
 
