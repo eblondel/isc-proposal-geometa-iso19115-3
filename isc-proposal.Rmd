@@ -2,7 +2,10 @@
 title: "`r proposal`"
 author: "`r author`"
 date: "`r Sys.Date()`"
-output: html_document
+linkcolor: blue
+output: 
+  pdf_document:
+    highlight: tango
 ---
 
 ```{r setup, eval=TRUE, results='hide', echo=FALSE}

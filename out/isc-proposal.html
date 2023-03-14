@@ -11,7 +11,7 @@
 
 <meta name="author" content="Emmanuel Blondel" />
 
-<meta name="date" content="2023-03-09" />
+<meta name="date" content="2023-03-14" />
 
 <title>ISO 19115-3 standard implementation in geometa R package</title>
 
@@ -366,7 +366,7 @@ pre code {
 <h1 class="title toc-ignore">ISO 19115-3 standard implementation in
 geometa R package</h1>
 <h4 class="author">Emmanuel Blondel</h4>
-<h4 class="date">2023-03-09</h4>
+<h4 class="date">2023-03-14</h4>
 
 </div>
 
@@ -385,12 +385,13 @@ An optional section would be for R-Core signatories where changes to R are propo
 <ul>
 <li><strong>ORCID</strong>: <a href="https://orcid.org/0000-0002-5870-5762">https://orcid.org/0000-0002-5870-5762</a>)</li>
 <li><strong>Website</strong>: <a href="https://eblondel.github.io">https://eblondel.github.io</a></li>
-<li><strong>Presentation</strong>: DevOps engineer, author of several R
-CRAN packages: geometa, ows4R, geosapi, geonapi, cleangeo, rsdmx, zen4R,
-and ocs4R; contributor/developer to Java/Python/JavaScript spatial
-libraries from the OSGeo community, related to ISO/OGC standards.
-Engineer in Agronomic and Environmental Sciences (2008, ENSAT, Toulouse,
-France), specialized in GIS with focus on promoting and implementing
+<li><strong>Presentation</strong>: Author of several R CRAN packages
+focusing on geospatial such as <a href="https://cran.r-project.org/package=geometa">geometa</a>, <a href="https://cran.r-project.org/package=ows4R">ows4R</a>, <a href="https://cran.r-project.org/package=geosapi">geosapi</a>, <a href="https://cran.r-project.org/package=geonapi">geonapi</a>, and
+related to (meta)data management in general such as <a href="https://cran.r-project.org/package=atom4R">atom4R</a>, <a href="https://cran.r-project.org/package=zen4R">zen4R</a>, <a href="https://cran.r-project.org/package=ocs4R">ocs4R</a>, <a href="https://cran.r-project.org/package=rsdmx">rsdmx</a>.
+Contributor/developer to Java/Python/JavaScript spatial libraries from
+the OSGeo community, related to ISO/OGC standards. Graduated engineer in
+Agronomic and Environmental Sciences (2008, ENSAT, Toulouse, France),
+specialized in GIS with focus on promoting and implementing
 international standards and fostering open science. Currently consultant
 (individual micro-company) and senior GIS and R expert for the Food and
 Agriculture Organization of the United Nations (UN-FAO) and World Bank.
@@ -406,15 +407,13 @@ enabling open and reproducible science.</li>
 <!-- 
 Who are the people who have actively helped with this proposal but won't necessarily be on the core project team later?
 -->
+<p>Contributors that have participated to to project review:</p>
 <ul>
+<li><p>Mr <a href="https://www.linkedin.com/in/anton-ellenbroek-19b4708">Anton
+Ellenbroek</a> - Information systems analyst at <a href="https://www.fao.org">UN-FAO</a> - Contact: <a href="mailto:Anton.Ellenbroek@fao.org">Anton.Ellenbroek@fao.org</a></p></li>
 <li><p>Mr <a href="https://orcid.org/0000-0002-3519-6141">Julien
 Barde</a> - Research Engineer at <a href="https://en.ird.fr/">IRD</a> -
 Contact: <a href="mailto:julien.barde@ird.fr">julien.barde@ird.fr</a></p></li>
-<li><p>Mr <a href="https://letg.cnrs.fr/auteur32.html">Mathias Rouan</a>
-- Research Engineer at <a href="https://letg.cnrs.fr">CNRS</a> -
-Contact: <a href="mailto:mathias.rouan@univ-brest.fr">mathias.rouan@univ-brest.fr</a></p></li>
-<li><p>Mr <a href="https://www.linkedin.com/in/anton-ellenbroek-19b4708">Anton
-Ellenbroek</a> - Information systems analyst at <a href="https://www.fao.org">UN-FAO</a> - Contact: <a href="mailto:Anton.Ellenbroek@fao.org">Anton.Ellenbroek@fao.org</a></p></li>
 </ul>
 </div>
 <div id="consulted" class="section level2">
@@ -422,6 +421,39 @@ Ellenbroek</a> - Information systems analyst at <a href="https://www.fao.org">UN
 <!-- 
 Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
 -->
+<div id="user-community" class="section level3">
+<h3>User community</h3>
+<ul>
+<li>Mr <a href="https://www.linkedin.com/in/stephen-roecker-3b162b133">Stephen
+Roecker</a>, Soil Scientist &amp; GIS Specialist at <a href="USDA%20-%20Natural%20Resources%20Conservation%20Service">https://www.nrcs.usda.gov/</a>
+– Contact: <a href="mailto:stephen.roecker@usda.gov">stephen.roecker@usda.gov</a>:</li>
+</ul>
+<blockquote>
+<p><em>The <a href="https://www.fgdc.gov/gda/online">US Geospatial Data
+Act (2018)</a> is a new US law that requires the federal agencies to
+publish their metadata on <a href="https://www.geoplatform.gov/">GeoPlatform.gov</a> in ISO 19115.
+This has focused many folks attention on metadata, like it hasn’t been
+before. Thus, I concur that there is a need for [geometa], and
+potentially a large user base. This is new territory for most folks, and
+many would also benefit from user guides.</em></p>
+</blockquote>
+<ul>
+<li><p>Mr <a href="https://www.linkedin.com/in/andrew-brown-31687b30/">Andrew
+Brown</a>, Soil Scientist at <a href="USDA%20-%20Natural%20Resources%20Conservation%20Service">https://www.nrcs.usda.gov/</a>
+– Contact: <a href="mailto:andrew.g.brown@usda.gov">andrew.g.brown@usda.gov</a>.
+<em>No yet replied</em></p></li>
+<li><p>Mr <a href="https://casoilresource.lawr.ucdavis.edu/people/dylan-e-beaudette/">Dylan
+Beaudette</a>, Soil Scientist at – Contact: <a href="mailto:dylan.beaudette@usda.gov">dylan.beaudette@usda.gov</a>
+<em>No yet replied</em></p></li>
+<li><p>Mr <a href="https://letg.cnrs.fr/auteur32.html">Mathias Rouan</a>
+- Research Engineer at <a href="https://letg.cnrs.fr">CNRS</a> -
+Contact: <a href="mailto:mathias.rouan@univ-brest.fr">mathias.rouan@univ-brest.fr</a>
+<em>No yet replied</em></p></li>
+</ul>
+</div>
+<div id="osgeo-development-community" class="section level3">
+<h3><a href="https://www.osgeo.org/">OSGeo</a> development
+community</h3>
 <ul>
 <li>Mr <a href="https://www.linkedin.com/in/fxprunayre/">François-Xavier
 Prunayre</a> - Software Engineer, <a href="https://foss4g.org/">FOSS4G</a> developer, PSC member &amp;
@@ -438,26 +470,36 @@ some members of the community are adopting it for their daily work eg.
 Service Public de Wallonie - Metawal, Ifremer - Checkpoints projects,
 ANZLIC.</em></p>
 </blockquote>
+<ul>
+<li>Other OSGeo board members to be contacted …</li>
+</ul>
+</div>
+<div id="r-consortium-isc" class="section level3">
+<h3>R Consortium ISC</h3>
+<ul>
+<li>To be defined</li>
+</ul>
+</div>
 </div>
 </div>
 <div id="the-problem" class="section level1">
 <h1>The Problem</h1>
 <div id="state-of-development" class="section level2">
 <h2>State of development</h2>
-<p>The <a href="https://cran.r-project.org/package=geometa"><em>geometa</em></a>
-package is a well-established and maintained R package, managed on <a href="https://github.com/eblondel/geometa">GitHub</a> and published on
+<p><a href="https://cran.r-project.org/package=geometa"><em>geometa</em></a>
+is a well-established and maintained R package, managed on <a href="https://github.com/eblondel/geometa">GitHub</a> and published on
 <a href="https://cran.r-project.org/package=geometa">CRAN</a>. It
 already supports various geographic metadata information international
 standards such as the ISO 19110 (Feature catalogue), ISO 19115-1 and
 19115-2 (geographic metadata for vector and gridded/imagery datasets),
 ISO 19119 (geographic metadata for service), and ISO 19136 (Geographic
-Markup Language) providing tools to read, validate and write geographic
-metadata from R using the ISO/TS 19139 - XML representation - technical
-specification.</p>
+Markup Language) providing methods to <em>read</em>, <em>validate</em>
+and <em>write</em> geographic metadata from R using the ISO/TS 19139
+(XML) technical specification.</p>
 <p>R native bindings for the ISO 19136 have been enabled to support the
 export of GML objects from geometry objects modeled with <a href="https://cran.r-project.org/package=sf"><em>sf</em></a>, also an R
-implementation of an ISO/OGC standard, the ISO 19125 - Simple Features
-Access. Such native GML support provided by <em>geometa</em> is
+implementation of an ISO/OGC standard (ISO 19125 - Simple Features
+Access). Such native GML support provided by <em>geometa</em> is
 currently unique in the R development community and provides a flexible
 framework to create objects from the broad GML data model where other
 libraries (such as <a href="https://gdal.org/drivers/vector/gml.html">GDAL</a>) limit their
@@ -476,7 +518,8 @@ been further consolidated to support various enhancements including:</p>
 Enablement (SWE) data models, required for enabling standard web
 coverage service data access (OGC WCS), added in <a href="https://cran.r-project.org/package=ows4R"><em>ows4R</em></a> in
 2022 (development sponsored by the European Marine Observation and Data
-Network - EMODnet Biology).</li>
+Network - <a href="https://emodnet.ec.europa.eu/en/biology">EMODnet
+Biology</a>).</li>
 </ul>
 <p>Thus, <em>geometa</em> provides an essential object-oriented data
 model in R to allow users managing easily and properly geographic
@@ -507,10 +550,14 @@ proprietary software such as ESRI, few are the programmatic tools that
 allow data managers creating such ISO-19115-3 geographic metadata.</p>
 <p>Stakes are high since <em>geometa</em> and the ecosystem of R
 libraries that is progressively built on top of it, provide a concrete
-toolset for national and international data managers to build geographic
-information metadata from R in order to fulfill broader objectives such
-as the <a href="https://www.iso.org/sdgs.html">UN sustainable goals</a>
-and <a href="https://www.nature.com/articles/sdata201618">FAIR</a> data
+toolset for national and international data managers to take over
+efficiently the management geographic information metadata, often
+constrained by time-consuming and tedious manual editing tasks. At
+national level, GIS managers are more and more requested by law to
+manage their geographic information by providing ISO 19115 metadata,
+such as through the <a href="https://www.fgdc.gov/gda/online">US
+Geospatial Data Act (2018)</a> or the <a href="https://inspire.ec.europa.eu/">EC INSPIRE Directive</a>.</p>
+<p>by a de from R in order to fulfill broader objectives such as the <a href="https://www.iso.org/sdgs.html">UN sustainable goals</a> and <a href="https://www.nature.com/articles/sdata201618">FAIR</a> data
 principles.</p>
 <p>The technical challenge for <em>geometa</em> is to re-design its
 object-oriented model in order to implement the ISO 19115-3 standard

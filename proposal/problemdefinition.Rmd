@@ -2,10 +2,10 @@
 
 ## State of development
 
-The [_geometa_](https://cran.r-project.org/package=geometa) package is a well-established and maintained R package, managed on [GitHub](https://github.com/eblondel/geometa) and published on [CRAN](https://cran.r-project.org/package=geometa). It already supports various geographic metadata information international standards such as the ISO 19110 (Feature catalogue), ISO 19115-1 and 19115-2 (geographic metadata for vector and gridded/imagery datasets), ISO 19119 (geographic metadata for service), and ISO 19136 (Geographic Markup Language) providing tools to read, validate and write geographic metadata from R using the ISO/TS 19139 - XML representation - technical specification. 
+[_geometa_](https://cran.r-project.org/package=geometa) is a well-established and maintained R package, managed on [GitHub](https://github.com/eblondel/geometa) and published on [CRAN](https://cran.r-project.org/package=geometa). It already supports various geographic metadata information international standards such as the ISO 19110 (Feature catalogue), ISO 19115-1 and 19115-2 (geographic metadata for vector and gridded/imagery datasets), ISO 19119 (geographic metadata for service), and ISO 19136 (Geographic Markup Language) providing methods to _read_, _validate_ and _write_ geographic metadata from R using the ISO/TS 19139 (XML) technical specification. 
 
 R native bindings for the ISO 19136 have been enabled to support the export of GML objects from geometry objects modeled with [_sf_](https://cran.r-project.org/package=sf), also an R 
-implementation of an ISO/OGC standard, the ISO 19125 - Simple Features Access. Such native GML support provided by _geometa_ is currently unique in the R development community and 
+implementation of an ISO/OGC standard (ISO 19125 - Simple Features Access). Such native GML support provided by _geometa_ is currently unique in the R development community and 
 provides a flexible framework to create objects from the broad GML data model where other libraries (such as [GDAL](https://gdal.org/drivers/vector/gml.html)) limit their support to 
 the scope of datasets. In addition, the support for GML elements fosters the interoperability between R and standard geospatial web-services that require some GML element bindings as 
 part of their specifications. This is the approach followed with the [_ows4R_](https://cran.r-project.org/package=ows4R) (OGC Web-Services For R) package, jointly developed together with _geometa_.
@@ -13,7 +13,7 @@ part of their specifications. This is the approach followed with the [_ows4R_](h
 Since the [first project](https://www.r-consortium.org/projects/awarded-projects/2018-group-2#strengthening+of+r+in+support+of+spatial+data+infrastructures+management+:+geometa+and+ows4r+r+packages) funded by the R Consortium in 2018, _geometa_ has been further consolidated to support various enhancements including:
 
 * a better support for multilingual metadata,
-* the addition of new classes from the ISO 19136 (GML) and Sensor Web Enablement (SWE) data models, required for enabling standard web coverage service data access (OGC WCS), added in [_ows4R_](https://cran.r-project.org/package=ows4R) in 2022 (development sponsored by the European Marine Observation and Data Network - EMODnet Biology).
+* the addition of new classes from the ISO 19136 (GML) and Sensor Web Enablement (SWE) data models, required for enabling standard web coverage service data access (OGC WCS), added in [_ows4R_](https://cran.r-project.org/package=ows4R) in 2022 (development sponsored by the European Marine Observation and Data Network - [EMODnet Biology](https://emodnet.ec.europa.eu/en/biology)).
 
 Thus, _geometa_ provides an essential object-oriented data model in R to allow users managing easily and properly geographic metadata information, in particular by interacting with OGC services and underlying tools widely adopted by the spatial user community. To fulfill these needs, _geometa_ has been exploited in R packages such as [_ows4R_](https://cran.r-project.org/package=ows4R) (R Interface to OGC Web-Services), [_geonapi_](https://cran.r-project.org/package=geonapi) (R Interface to GeoNetwork opensource) and [_geoflow_](https://github.com/r-geoflow/geoflow) (R engine to orchestrate and run geospatial (meta)data workflows).
 
@@ -23,7 +23,9 @@ Despite the above ISO/OGC legacy metadata standards are still widely used by the
 
 Although progressively adopted by several projects from the [OpenSource Geospatial Foundation](https://www.osgeo.org/) (OSGeo) such as [GeoNetwork](https://www.osgeo.org/projects/geonetwork/), [PyCSW](https://www.osgeo.org/projects/pycsw/) but also from proprietary software such as ESRI, few are the programmatic tools that allow data managers creating such ISO-19115-3 geographic metadata. 
 
-Stakes are high since _geometa_ and the ecosystem of R libraries that is progressively built on top of it, provide a concrete toolset for national and international data managers to build geographic information metadata from R in order to fulfill broader objectives such as the [UN sustainable goals](https://www.iso.org/sdgs.html) and [FAIR](https://www.nature.com/articles/sdata201618) data principles.
+Stakes are high since _geometa_ and the ecosystem of R libraries that is progressively built on top of it, provide a concrete toolset for national and international data managers to take over efficiently the management geographic information metadata, often constrained by time-consuming and tedious manual editing tasks. At national level, GIS managers are more and more requested by law to manage their geographic information by providing ISO 19115 metadata, such as through the [US Geospatial Data Act (2018)](https://www.fgdc.gov/gda/online) or the [EC INSPIRE Directive](https://inspire.ec.europa.eu/).
+
+by a de from R in order to fulfill broader objectives such as the [UN sustainable goals](https://www.iso.org/sdgs.html) and [FAIR](https://www.nature.com/articles/sdata201618) data principles.
 
 The technical challenge for _geometa_ is to re-design its object-oriented model in order to implement the ISO 19115-3 standard while ensuring backward compatibility with previous ISO 19115-1/19115-2/19139 standards.
 
