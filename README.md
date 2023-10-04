@@ -1,3 +1,3 @@
-# isc-proposal-geometa-2023
+# isc-proposal-geometa-iso19115-3
 
 TBD Overview
