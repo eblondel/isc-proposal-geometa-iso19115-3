@@ -11,7 +11,9 @@ An optional section would be for R-Core signatories where changes to R are propo
 
 * **ORCID**: [https://orcid.org/0000-0002-5870-5762](https://orcid.org/0000-0002-5870-5762))
 * **Website**: [https://eblondel.github.io](https://eblondel.github.io)
-* **Presentation**: Author of several R CRAN packages focusing on geospatial such as [geometa](https://cran.r-project.org/package=geometa), [ows4R](https://cran.r-project.org/package=ows4R), [geosapi](https://cran.r-project.org/package=geosapi), [geonapi](https://cran.r-project.org/package=geonapi), and related to (meta)data management in general such as [atom4R](https://cran.r-project.org/package=atom4R), [zen4R](https://cran.r-project.org/package=zen4R), [ocs4R](https://cran.r-project.org/package=ocs4R), [rsdmx](https://cran.r-project.org/package=rsdmx). Contributor/developer to Java/Python/JavaScript spatial libraries from the OSGeo community, related to ISO/OGC standards. Graduated engineer in Agronomic and Environmental Sciences (2008, ENSAT, Toulouse, France), specialized in GIS with focus on promoting and implementing international standards and fostering open science. Currently consultant (individual micro-company) and senior GIS and R expert for the Food and Agriculture Organization of the United Nations (UN-FAO) and World Bank. Collaborates actively with scientific institutes such as IRD, Ifremer, INRAE, CNRS, and projects focusing on methodologies based on open geospatial (meta)data standards, and data access & exploration tools enabling open and reproducible science.
+* **Github**: [https://github.com/eblondel](https://github.com/eblondel)
+* **r-universe**: [https://eblondel.r-universe.dev](https://eblondel.r-universe.dev)
+* **Presentation**: Author of several R CRAN packages focusing on geospatial such as [geometa](https://cran.r-project.org/package=geometa), [ows4R](https://cran.r-project.org/package=ows4R), [geosapi](https://cran.r-project.org/package=geosapi), [geonapi](https://cran.r-project.org/package=geonapi), and related to (meta)data management in general such as [atom4R](https://cran.r-project.org/package=atom4R), [zen4R](https://cran.r-project.org/package=zen4R), [ocs4R](https://cran.r-project.org/package=ocs4R), [rsdmx](https://cran.r-project.org/package=rsdmx). Contributor/developer to Java/Python/JavaScript spatial libraries from the OSGeo community, related to ISO/OGC standards. Graduated engineer in Agronomic and Environmental Sciences (2008, ENSAT, Toulouse, France), specialized in GIS with focus on promoting and implementing international standards and fostering open science. Currently consultant (individual micro-company), senior GIS and R expert for the Food and Agriculture Organization of the United Nations (UN-FAO) and World Bank, international expert for UN marine geospatial information management. Collaborates actively with scientific institutes and projects focusing on methodologies based on open geospatial (meta)data standards, and data access & exploration tools enabling open and reproducible science.
 
 ## Contributors
 <!-- 
@@ -35,12 +37,6 @@ Who has been given the opportunity to provide feedback on the proposal? This sho
 * Mr [Stephen Roecker](https://www.linkedin.com/in/stephen-roecker-3b162b133), Soil Scientist & GIS Specialist at [https://www.nrcs.usda.gov/](USDA - Natural Resources Conservation Service) – Contact: [stephen.roecker@usda.gov](mailto:stephen.roecker@usda.gov):
 
 > _The [US Geospatial Data Act (2018)](https://www.fgdc.gov/gda/online) is a new US law that requires the federal agencies to publish their metadata on [GeoPlatform.gov](https://www.geoplatform.gov/) in ISO 19115. This has focused many folks attention on metadata, like it hasn't been before. Thus, I concur that there is a need for [geometa], and potentially a large user base. This is new territory for most folks, and many would also benefit from user guides._
-
-* Mr [Andrew Brown](https://www.linkedin.com/in/andrew-brown-31687b30/), Soil Scientist at [https://www.nrcs.usda.gov/](USDA - Natural Resources Conservation Service) – Contact: [andrew.g.brown@usda.gov](mailto:andrew.g.brown@usda.gov). _No yet replied_
-
-* Mr [Dylan Beaudette](https://casoilresource.lawr.ucdavis.edu/people/dylan-e-beaudette/), Soil Scientist at – Contact: [dylan.beaudette@usda.gov](mailto:dylan.beaudette@usda.gov) _No yet replied_
-
-* Mr [Mathias Rouan](https://letg.cnrs.fr/auteur32.html) - Research Engineer at [CNRS](https://letg.cnrs.fr) - Contact: [mathias.rouan@univ-brest.fr](mailto:mathias.rouan@univ-brest.fr) _No yet replied_
 
 ### [OSGeo](https://www.osgeo.org/) development community
 

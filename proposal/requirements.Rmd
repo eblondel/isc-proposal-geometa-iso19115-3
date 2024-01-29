@@ -75,6 +75,6 @@ The total estimated cost and budget requested here to R Consortium ISC is **13,7
 A summary of the requirements that contextualises the costs
 -->
 
-The funding is established based on the time spent by Emmanuel Blondel (Consultant) to carry out the developements as detailed in the _Project plan / Technical delivery_ section. Cost is based on an average daily gross rate of 550 USD (500 EUR) and a total of 25 working days.
+The funding is established based on the time spent by Emmanuel Blondel (Consultant) to carry out the developements as detailed in the _Project plan / Technical delivery_ section. Cost is based on an average daily gross rate of 550 USD (500 EUR) and a total of 25 working days (effort estimate).
 
-In-kind contributions are expected to be delivered in pilot use cases at national and international scale, covering various data domains (earth sciences, oceanography and marine sciences, fisheries, climate change), by collaborating with key contributors as listed the project _Signatories_.
+In-kind contributions are expected to be delivered in pilot use cases at national and international scale, covering various data domains (earth sciences, oceanography and marine sciences, fisheries, climate change), by collaborating with key contributors as listed in the project _Signatories_.
