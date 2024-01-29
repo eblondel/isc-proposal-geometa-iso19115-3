@@ -18,6 +18,7 @@ How will we know when success is achieved, what markers can we use along the way
 -->
 
 Success will be the result of multiple measures, including:
+
 * Package tested code with clear quality assurance indicators made of unit and integration tests
 * Package improvements and new features released through CRAN
 * Performance and Usability (including available and easy-to-understand documentation)
