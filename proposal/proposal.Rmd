@@ -19,7 +19,6 @@ The object-oriented data model developed with [R6](https://cran.r-project.org/pa
 * add mechanism to switch from the ISO 19115-1/19115-2 data model to ISO 19115-3 for manipulating metadata objects
 * adapt classes covered by both models to accomodate changes introduced with ISO 19115-3, and add new classes defined by ISO 19115-3 only
 * enhance the metadata validator (based on ISO 19115-1/19115-2/19115-3 schemas)
-* add a converter to facilitate the upgrade of geometa metadata document objects from ISO 19115-1/19115-2 to ISO 19115-3 
 
 <!--
 Go into more detail about the specifics of the project and it delivers against the problem.
