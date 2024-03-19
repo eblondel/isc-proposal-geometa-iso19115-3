@@ -31,7 +31,7 @@ How could this be extended / developed in the future by yourself and/or the comm
 
 Future work and perspectives derived from this project may included:
 
-* the support for ISO 19115-3 automated metadata production through [_geoflow_](https://github.com/r-geoflow/geoflow) and automated publication into open plateforms from the [OpenSource Geospatial Foundation](https://www.osgeo.org/) (OSGeo) such as [GeoNetwork](https://www.osgeo.org/projects/geonetwork/), [PyCSW](https://www.osgeo.org/projects/pycsw/) or [GeoNode](https://www.osgeo.org/projects/geonode/).
+* the support for ISO 19115-3 automated metadata production through [_geoflow_](https://github.com/r-geoflow/geoflow) and automated publication into open platforms from the [OpenSource Geospatial Foundation](https://www.osgeo.org/) (OSGeo) such as [GeoNetwork](https://www.osgeo.org/projects/geonetwork/), [PyCSW](https://www.osgeo.org/projects/pycsw/) or [GeoNode](https://www.osgeo.org/projects/geonode/).
 * the assessment of the outputs of the [RConsortium Object-Oriented Programming Working Group](https://github.com/RConsortium/OOP-WG) such as the S7 package as possible way to enhance the object-oriented data model implemented in _geometa_.
 
 
