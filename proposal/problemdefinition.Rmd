@@ -11,7 +11,7 @@ Since the [first project](https://www.r-consortium.org/projects/awarded-projects
 * a better support for multilingual metadata, with application in regional and international contexts
 * the addition of new classes from the ISO 19136 (GML) and Sensor Web Enablement (SWE) data models, required for enabling standard web coverage service data access (OGC WCS), added in [_ows4R_](https://cran.r-project.org/package=ows4R) in 2022 (development sponsored by the European Marine Observation and Data Network - [EMODnet Biology](https://emodnet.ec.europa.eu/en/biology)).
 
-On maintenance aspects, _geometa_ has been also evolving to cover:
+On evolutive maintenance aspects, _geometa_ has been evolving to introduce modern R libraries, such as:
 * the migration from [XML](https://cran.r-project.org/package=XML) package to the [_xml2_](https://github.com/r-lib/xml2) R package has been initiated to foster collaboration with active projects, and facilitate the overall maintenance of CRAN packages on the long term.
 * the introduction of [_waldo_](https://waldo.r-lib.org/) as reference for comparing geometa objects.
 
@@ -20,7 +20,7 @@ Thus, _geometa_ provides an essential object-oriented data model in R to allow u
 
 ## Challenge
 
-Despite the above ISO/OGC legacy metadata standards are still widely used by the community, due to the fact that web information systems still extensively use them as main geographic infomation metadata standards, new standards are set-up by the ISO as part of the continuous standardization process. The [ISO/TS 19115-3](https://www.iso.org/standard/32579.html), produced and approved in 2016 by the [ISO TC/221](https://www.iso.org/fr/committee/54904.html) Technical Committee on Geographic information/Geomatics, was confirmed in 2019. It offers a major evolution of the above geographic information metadata standards by simplifying and consolidating them through an integrated XML implementation of ISO 19115-1, ISO 19115-2, and concepts from ISO/TS 19139.
+Despite the above ISO/OGC legacy metadata standards are still widely used by the community, due to the fact that web information systems still extensively use them as main geographic infomation metadata standards, new standards are set-up by the ISO as part of the continuous standardization process. The [ISO/TS 19115-3](https://www.iso.org/standard/32579.html), produced and approved in 2016 by the [ISO TC/221](https://www.iso.org/fr/committee/54904.html) Technical Committee on Geographic information/Geomatics, was confirmed in 2019. It offers a major evolution of the above geographic information metadata standards by simplifying and consolidating them through an integrated implementation of ISO 19115-1, ISO 19115-2, and concepts from ISO/TS 19139.
 
 Although progressively adopted by several projects from the [OpenSource Geospatial Foundation](https://www.osgeo.org/) (OSGeo) such as [GeoNetwork](https://www.osgeo.org/projects/geonetwork/), [PyCSW](https://www.osgeo.org/projects/pycsw/) but also from proprietary software such as ESRI, few are the programmatic tools that allow data managers creating such ISO-19115-3 geographic metadata. 
 
