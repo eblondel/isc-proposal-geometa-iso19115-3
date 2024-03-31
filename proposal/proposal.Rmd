@@ -16,8 +16,8 @@ At a high-level address what your proposal is and how it will address the proble
 ## Detail
 
 The object-oriented data model developed with [R6](https://cran.r-project.org/package=R6) will be enhanced, introducing the following features:
-* add mechanism to switch from the ISO 19115-1/19115-2 data model to ISO 19115-3 for manipulating metadata objects
-* adapt classes covered by both models to accomodate changes introduced with ISO 19115-3, and add new classes defined by ISO 19115-3 only
+* add mechanism to switch from the ISO 19115-1/19115-2 data model to ISO 19115-3 for handling metadata objects
+* adapt classes covered by both models to accommodate changes introduced with ISO 19115-3, and add new classes introduced with ISO 19115-3
 * enhance the metadata validator (based on ISO 19115-1/19115-2/19115-3 schemas)
 
 <!--

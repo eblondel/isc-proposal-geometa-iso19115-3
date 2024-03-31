@@ -12,7 +12,7 @@ Emmanuel Blondel will lead R package enhancements and will involve as required k
 
 User community involvement: Outreach will first focus on potential contributors to improve the usability of geometa.
 
-Consulted people for this proposal writing may be contacted to get their feedback during the project implementation, and will be invited to contribute to improve geometa usability, especially in linkage with key OSGeo software projects.
+Consulted people for this proposal writing may be contacted to get their feedback during the project implementation, and will be invited to contribute to improve geometa usability, especially in linkage with key OSGeo software projects such as [GeoNetwork](https://www.osgeo.org/projects/geonetwork/), [PyCSW](https://www.osgeo.org/projects/pycsw/) or [GeoNode](https://www.osgeo.org/projects/geonode/).
 
 
 ## Processes
@@ -74,6 +74,6 @@ The total estimated cost and budget requested here to R Consortium ISC is **13,7
 A summary of the requirements that contextualises the costs
 -->
 
-The funding is established based on the time spent by Emmanuel Blondel (Consultant) to carry out the developements as detailed in the _Project plan / Technical delivery_ section. Cost is based on an average daily gross rate of 550 USD (500 EUR) and a total of 25 working days (effort estimate).
+The funding is established based on the time spent by Emmanuel Blondel (Consultant) to carry out the developments as detailed in the _Project plan / Technical delivery_ section. Cost is based on an average daily gross rate of 550 USD (500 EUR) and a total of 25 working days (effort estimate).
 
 In-kind contributions are expected to be made in pilot use cases at national and international scale, covering various data domains (earth sciences, oceanography and marine sciences, fisheries, climate change), by collaborating with key contributors as listed in the project _Signatories_.

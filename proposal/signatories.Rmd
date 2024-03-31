@@ -13,18 +13,16 @@ An optional section would be for R-Core signatories where changes to R are propo
 * **Website**: [https://eblondel.github.io](https://eblondel.github.io)
 * **Github**: [https://github.com/eblondel](https://github.com/eblondel)
 * **r-universe**: [https://eblondel.r-universe.dev](https://eblondel.r-universe.dev)
-* **Presentation**: Author of several R CRAN packages focusing on geospatial such as [geometa](https://cran.r-project.org/package=geometa), [ows4R](https://cran.r-project.org/package=ows4R), [geosapi](https://cran.r-project.org/package=geosapi), [geonapi](https://cran.r-project.org/package=geonapi), and related to (meta)data management in general such as [atom4R](https://cran.r-project.org/package=atom4R), [zen4R](https://cran.r-project.org/package=zen4R), [ocs4R](https://cran.r-project.org/package=ocs4R), [rsdmx](https://cran.r-project.org/package=rsdmx). Contributor/developer to Java/Python/JavaScript spatial libraries from the OSGeo community, related to ISO/OGC standards. Graduated engineer in Agronomic and Environmental Sciences (2008, ENSAT, Toulouse, France), specialized in GIS with focus on promoting and implementing international standards and fostering open science. Currently consultant (individual micro-company), senior GIS and R expert for the Food and Agriculture Organization of the United Nations (UN-FAO) and World Bank, international expert for UN marine geospatial information management. Collaborates actively with scientific institutes and projects focusing on methodologies based on open geospatial (meta)data standards, and data access & exploration tools enabling open and reproducible science.
+* **Presentation**: Author of several R CRAN packages focusing on geospatial such as [geometa](https://cran.r-project.org/package=geometa), [ows4R](https://cran.r-project.org/package=ows4R), [geosapi](https://cran.r-project.org/package=geosapi), [geonapi](https://cran.r-project.org/package=geonapi), and related to (meta)data management in general such as [atom4R](https://cran.r-project.org/package=atom4R), [zen4R](https://cran.r-project.org/package=zen4R), [ocs4R](https://cran.r-project.org/package=ocs4R), [rsdmx](https://cran.r-project.org/package=rsdmx). Contributor/developer to Java/Python/JavaScript spatial libraries from the OSGeo community, related to ISO/OGC standards. Graduated engineer in Agronomic and Environmental Sciences (2008, ENSAT, Toulouse, France), specialized in GIS with focus on promoting and implementing international standards and fostering open science. Currently consultant (individual micro-company), senior GIS and R expert for the Food and Agriculture Organization of the United Nations (UN-FAO) and World Bank, international expert at UN for marine geospatial information management. Collaborates actively with scientific institutes and projects focusing on methodologies based on open geospatial (meta)data standards, and data access & exploration tools enabling open and reproducible science.
 
 ## Contributors
 <!-- 
 Who are the people who have actively helped with this proposal but won't necessarily be on the core project team later?
 -->
 
-Contributors that have participated to to project review:
+Contributors that have participated to project review:
 
 * Mr [Anton Ellenbroek](https://www.linkedin.com/in/anton-ellenbroek-19b4708) - Information systems analyst at [UN-FAO](https://www.fao.org) - Contact: [Anton.Ellenbroek@fao.org](mailto:Anton.Ellenbroek@fao.org)
-
-* Mr [Julien Barde](https://orcid.org/0000-0002-3519-6141) - Research Engineer at [IRD](https://en.ird.fr/) - Contact: [julien.barde@ird.fr](mailto:julien.barde@ird.fr)
 
 
 ## Consulted
@@ -38,14 +36,15 @@ Who has been given the opportunity to provide feedback on the proposal? This sho
 
 > _The [US Geospatial Data Act (2018)](https://www.fgdc.gov/gda/online) is a new US law that requires the federal agencies to publish their metadata on [GeoPlatform.gov](https://www.geoplatform.gov/) in ISO 19115. This has focused many folks attention on metadata, like it hasn't been before. Thus, I concur that there is a need for [geometa], and potentially a large user base. This is new territory for most folks, and many would also benefit from user guides._
 
+* Mr [Julien Barde](https://orcid.org/0000-0002-3519-6141) - Research Engineer at [IRD (French National Research Institute for Sustainable Development)](https://en.ird.fr/) - Contact: [julien.barde@ird.fr](mailto:julien.barde@ird.fr)
+
+* Ms [Hélène Raynal](https://agir.toulouse.hub.inrae.fr/equipes-et-membres/raynal-helene) - Research Engineer at [INRAE (National Research Institute for Agriculture, Food and the Environment)](https://www.inrae.fr/en) - Contact: [helene.raynal@inrae.fr](mailto:helene.raynal@inrae.fr)
+
+
 ### [OSGeo](https://www.osgeo.org/) development community
 
 * Mr [François-Xavier Prunayre](https://www.linkedin.com/in/fxprunayre/) - Software Engineer, [FOSS4G](https://foss4g.org/) developer, PSC member & committer (GeoNetwork opensource, Talend spatial):
 
 > _ISO 19115-3 is a major step forward in geographic resources description by bridging various ISO models into a common entity. Data model (aka feature catalogue) can now be described directly in the metadata. Usage and quality are now 2 specific sections. ISO 19157 is used for quality reports and measures. ISO19115-2 for imagery is now part of the encoding. GeoNetwork is now supporting that standard and some members of the community are adopting it for their daily work eg. Service Public de Wallonie - Metawal, Ifremer - Checkpoints projects, ANZLIC._
 
-* Other OSGeo board members to be contacted ...
-
-### R Consortium ISC
-
-* To be defined
+* Mr [Tom Kralidis](https://www.linkedin.com/in/tomkralidis) - Senior Geospatial Architect at Meteorological Service of Canada, Lead developer at [PyCSW](https://pycsw.org/), [OsGeo](https://osgeo.org/) Charter Member and currently serve on the Board of Directors

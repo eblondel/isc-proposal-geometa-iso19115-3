@@ -11,7 +11,7 @@
 
 <meta name="author" content="Emmanuel Blondel" />
 
-<meta name="date" content="2024-03-19" />
+<meta name="date" content="2024-03-31" />
 
 <title>ISO 19115-3 standard implementation in geometa R package</title>
 
@@ -353,7 +353,7 @@ display: none;
 <h1 class="title toc-ignore">ISO 19115-3 standard implementation in
 geometa R package</h1>
 <h4 class="author">Emmanuel Blondel</h4>
-<h4 class="date">2024-03-19</h4>
+<h4 class="date">2024-03-31</h4>
 
 </div>
 
@@ -384,7 +384,7 @@ specialized in GIS with focus on promoting and implementing
 international standards and fostering open science. Currently consultant
 (individual micro-company), senior GIS and R expert for the Food and
 Agriculture Organization of the United Nations (UN-FAO) and World Bank,
-international expert for UN marine geospatial information management.
+international expert at UN for marine geospatial information management.
 Collaborates actively with scientific institutes and projects focusing
 on methodologies based on open geospatial (meta)data standards, and data
 access &amp; exploration tools enabling open and reproducible
@@ -397,13 +397,10 @@ science.</li>
 <!-- 
 Who are the people who have actively helped with this proposal but won't necessarily be on the core project team later?
 -->
-<p>Contributors that have participated to to project review:</p>
+<p>Contributors that have participated to project review:</p>
 <ul>
-<li><p>Mr <a href="https://www.linkedin.com/in/anton-ellenbroek-19b4708">Anton
-Ellenbroek</a> - Information systems analyst at <a href="https://www.fao.org">UN-FAO</a> - Contact: <a href="mailto:Anton.Ellenbroek@fao.org">Anton.Ellenbroek@fao.org</a></p></li>
-<li><p>Mr <a href="https://orcid.org/0000-0002-3519-6141">Julien
-Barde</a> - Research Engineer at <a href="https://en.ird.fr/">IRD</a> -
-Contact: <a href="mailto:julien.barde@ird.fr">julien.barde@ird.fr</a></p></li>
+<li>Mr <a href="https://www.linkedin.com/in/anton-ellenbroek-19b4708">Anton
+Ellenbroek</a> - Information systems analyst at <a href="https://www.fao.org">UN-FAO</a> - Contact: <a href="mailto:Anton.Ellenbroek@fao.org">Anton.Ellenbroek@fao.org</a></li>
 </ul>
 </div>
 <div id="consulted" class="section level2">
@@ -427,6 +424,15 @@ before. Thus, I concur that there is a need for [geometa], and
 potentially a large user base. This is new territory for most folks, and
 many would also benefit from user guides.</em></p>
 </blockquote>
+<ul>
+<li><p>Mr <a href="https://orcid.org/0000-0002-3519-6141">Julien
+Barde</a> - Research Engineer at <a href="https://en.ird.fr/">IRD
+(French National Research Institute for Sustainable Development)</a> -
+Contact: <a href="mailto:julien.barde@ird.fr">julien.barde@ird.fr</a></p></li>
+<li><p>Ms <a href="https://agir.toulouse.hub.inrae.fr/equipes-et-membres/raynal-helene">Hélène
+Raynal</a> - Research Engineer at <a href="https://www.inrae.fr/en">INRAE (National Research Institute for
+Agriculture, Food and the Environment)</a> - Contact: <a href="mailto:helene.raynal@inrae.fr">helene.raynal@inrae.fr</a></p></li>
+</ul>
 </div>
 <div id="osgeo-development-community" class="section level3">
 <h3><a href="https://www.osgeo.org/">OSGeo</a> development
@@ -448,13 +454,10 @@ Service Public de Wallonie - Metawal, Ifremer - Checkpoints projects,
 ANZLIC.</em></p>
 </blockquote>
 <ul>
-<li>Other OSGeo board members to be contacted …</li>
-</ul>
-</div>
-<div id="r-consortium-isc" class="section level3">
-<h3>R Consortium ISC</h3>
-<ul>
-<li>To be defined</li>
+<li>Mr <a href="https://www.linkedin.com/in/tomkralidis">Tom
+Kralidis</a> - Senior Geospatial Architect at Meteorological Service of
+Canada, Lead developer at <a href="https://pycsw.org/">PyCSW</a>, <a href="https://osgeo.org/">OsGeo</a> Charter Member and currently serve
+on the Board of Directors</li>
 </ul>
 </div>
 </div>
@@ -502,7 +505,7 @@ Network - <a href="https://emodnet.ec.europa.eu/en/biology">EMODnet
 Biology</a>).</li>
 </ul>
 <p>On evolutive maintenance aspects, <em>geometa</em> has been evolving
-to introduce modern R libraries, such as: * the migration from <a href="https://cran.r-project.org/package=XML">XML</a> package to the <a href="https://github.com/r-lib/xml2"><em>xml2</em></a> R package has
+to introduce modern R libraries: * the migration from <a href="https://cran.r-project.org/package=XML">XML</a> package to the <a href="https://github.com/r-lib/xml2"><em>xml2</em></a> R package has
 been initiated to foster collaboration with active projects, and
 facilitate the overall maintenance of CRAN packages on the long term. *
 the introduction of <a href="https://waldo.r-lib.org/"><em>waldo</em></a> as reference for
@@ -514,14 +517,14 @@ underlying tools widely adopted by the spatial user community. To
 fulfill these needs, <em>geometa</em> has been exploited in R packages
 such as <a href="https://cran.r-project.org/package=ows4R"><em>ows4R</em></a> (R
 Interface to OGC Web-Services), <a href="https://cran.r-project.org/package=geonapi"><em>geonapi</em></a>
-(R Interface to GeoNetwork opensource) and <a href="https://github.com/r-geoflow/geoflow"><em>geoflow</em></a> (R
+(R Interface to GeoNetwork opensource API) and <a href="https://github.com/r-geoflow/geoflow"><em>geoflow</em></a> (R
 engine to orchestrate and run geospatial (meta)data workflows).</p>
 </div>
 <div id="challenge" class="section level2">
 <h2>Challenge</h2>
 <p>Despite the above ISO/OGC legacy metadata standards are still widely
 used by the community, due to the fact that web information systems
-still extensively use them as main geographic infomation metadata
+still extensively use them as main geographic information metadata
 standards, new standards are set-up by the ISO as part of the continuous
 standardization process. The <a href="https://www.iso.org/standard/32579.html">ISO/TS 19115-3</a>,
 produced and approved in 2016 by the <a href="https://www.iso.org/fr/committee/54904.html">ISO TC/221</a>
@@ -547,15 +550,15 @@ national level, GIS managers are more and more requested by law to
 manage their geographic information by providing ISO 19115 metadata,
 such as through the <a href="https://www.fgdc.gov/gda/online">US
 Geospatial Data Act (2018)</a> or the <a href="https://inspire.ec.europa.eu/">EC INSPIRE Directive</a>. Backed by
-these legal frames, and broader objectives such as the <a href="https://www.iso.org/sdgs.html">UN sustainable goals</a>, national
-geospatial data infrastructures are put in place, reinforcing the
-position of the ISO 19115 as cornerstone of geographic information
+these legal frames, and broader objectives such as the <a href="https://sdgs.un.org/goals">UN sustainable development goals</a>,
+national geospatial data infrastructures are put in place, reinforcing
+the position of the ISO 19115 as cornerstone of geographic information
 management. In these infrastructures, the capacity to manage geographic
 information in R offered by <em>geometa</em> in combination with data
 oriented packages (<em>sf</em>, <em>terra</em>) is seen as an real asset
 to implement collective and multidisciplinary works involving data
 managers, analysts, statisticians and researchers for which R remains
-the leading programming language.</p>
+the common and most used programming language.</p>
 </div>
 </div>
 <div id="the-proposal" class="section level1">
@@ -582,10 +585,10 @@ At a high-level address what your proposal is and how it will address the proble
 <h2>Detail</h2>
 <p>The object-oriented data model developed with <a href="https://cran.r-project.org/package=R6">R6</a> will be enhanced,
 introducing the following features: * add mechanism to switch from the
-ISO 19115-1/19115-2 data model to ISO 19115-3 for manipulating metadata
-objects * adapt classes covered by both models to accomodate changes
-introduced with ISO 19115-3, and add new classes defined by ISO 19115-3
-only * enhance the metadata validator (based on ISO
+ISO 19115-1/19115-2 data model to ISO 19115-3 for handling metadata
+objects * adapt classes covered by both models to accommodate changes
+introduced with ISO 19115-3, and add new classes introduced with ISO
+19115-3 * enhance the metadata validator (based on ISO
 19115-1/19115-2/19115-3 schemas)</p>
 <!--
 Go into more detail about the specifics of the project and it delivers against the problem.
@@ -647,7 +650,7 @@ codelists (through parsing of ISO Codelist catalogues) and application
 to both ISO 19115-1/2 vs. 19115-3
 <ul>
 <li>Effort: 3 days</li>
-<li>Expected delivery: <strong>2024-08-31</strong></li>
+<li>Expected delivery: <strong>2024-10-31</strong></li>
 </ul></li>
 <li><strong>Milestone 4</strong>: Evolutive maintenance of ISO 19115
 classes already existing in the <em>geometa</em> data model for their
@@ -674,6 +677,8 @@ and ensure backward compatibility with ISO 19115-1/2.</li>
 through quality controls (Github Actions to perform
 <code>R CMD Check</code> in view of releasing the new features on
 CRAN)</li>
+<li>New features will be directly tested into case studies through
+collaborations with national and international organizations</li>
 </ul>
 </div>
 <div id="other-aspects" class="section level2">
@@ -720,7 +725,7 @@ contributors to improve the usability of geometa.</p>
 <p>Consulted people for this proposal writing may be contacted to get
 their feedback during the project implementation, and will be invited to
 contribute to improve geometa usability, especially in linkage with key
-OSGeo software projects.</p>
+OSGeo software projects such as <a href="https://www.osgeo.org/projects/geonetwork/">GeoNetwork</a>, <a href="https://www.osgeo.org/projects/pycsw/">PyCSW</a> or <a href="https://www.osgeo.org/projects/geonode/">GeoNode</a>.</p>
 </div>
 <div id="processes" class="section level2">
 <h2>Processes</h2>
@@ -809,7 +814,7 @@ ISC is <strong>13,750 USD</strong> (~12,500 EUR).</p>
 A summary of the requirements that contextualises the costs
 -->
 <p>The funding is established based on the time spent by Emmanuel
-Blondel (Consultant) to carry out the developements as detailed in the
+Blondel (Consultant) to carry out the developments as detailed in the
 <em>Project plan / Technical delivery</em> section. Cost is based on an
 average daily gross rate of 550 USD (500 EUR) and a total of 25 working
 days (effort estimate).</p>
