@@ -30,6 +30,18 @@ Contributors that have participated to project review:
 Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
 -->
 
+### [OSGeo](https://www.osgeo.org/) development community
+
+* Mr [Tom Kralidis](https://www.linkedin.com/in/tomkralidis) - Senior Geospatial Architect at Meteorological Service of Canada. [OsGeo](https://osgeo.org/) Charter Member and currently serving on the Board of Directors. Lead developer at [PyCSW](https://pycsw.org/), [PyGeoapi](https://pygeoapi.io/) and [PyGeometa](https://geopython.github.io/pygeometa/).  Contact: [tomkralidis@gmail.com](mailto:tomkralidis@gmail.com) – GitHub: [tomkralidis](https://github.com/tomkralidis)
+
+> _ISO 19115-3 support is valuable to the geospatial community in support of the management, description, and preservation of geospatial data.  This support exists in the Geopython community, and would be an asset in the R geometa implementation to achieve similar impact and outcomes._
+
+> _Tom Kralidis, Open Source Geospatial Foundation_
+
+* Mr [François-Xavier Prunayre](https://www.linkedin.com/in/fxprunayre/) - Software Engineer, [FOSS4G](https://foss4g.org/) developer, PSC member & committer (GeoNetwork opensource, Talend spatial). GitHub: [fxprunayre](https://github.com/fxprunayre)
+
+> _ISO 19115-3 is a major step forward in geographic resources description by bridging various ISO models into a common entity. Data model (aka feature catalogue) can now be described directly in the metadata. Usage and quality are now 2 specific sections. ISO 19157 is used for quality reports and measures. ISO19115-2 for imagery is now part of the encoding. GeoNetwork is now supporting that standard and some members of the community are adopting it for their daily work eg. Service Public de Wallonie - Metawal, Ifremer - Checkpoints projects, ANZLIC._
+
 ### User community
 
 * Mr [Stephen Roecker](https://www.linkedin.com/in/stephen-roecker-3b162b133), Soil Scientist & GIS Specialist at [https://www.nrcs.usda.gov/](USDA - Natural Resources Conservation Service) – Contact: [stephen.roecker@usda.gov](mailto:stephen.roecker@usda.gov):
@@ -39,12 +51,3 @@ Who has been given the opportunity to provide feedback on the proposal? This sho
 * Mr [Julien Barde](https://orcid.org/0000-0002-3519-6141) - Research Engineer at [IRD (French National Research Institute for Sustainable Development)](https://en.ird.fr/) - Contact: [julien.barde@ird.fr](mailto:julien.barde@ird.fr)
 
 * Ms [Hélène Raynal](https://agir.toulouse.hub.inrae.fr/equipes-et-membres/raynal-helene) - Research Engineer at [INRAE (National Research Institute for Agriculture, Food and the Environment)](https://www.inrae.fr/en) - Contact: [helene.raynal@inrae.fr](mailto:helene.raynal@inrae.fr)
-
-
-### [OSGeo](https://www.osgeo.org/) development community
-
-* Mr [François-Xavier Prunayre](https://www.linkedin.com/in/fxprunayre/) - Software Engineer, [FOSS4G](https://foss4g.org/) developer, PSC member & committer (GeoNetwork opensource, Talend spatial):
-
-> _ISO 19115-3 is a major step forward in geographic resources description by bridging various ISO models into a common entity. Data model (aka feature catalogue) can now be described directly in the metadata. Usage and quality are now 2 specific sections. ISO 19157 is used for quality reports and measures. ISO19115-2 for imagery is now part of the encoding. GeoNetwork is now supporting that standard and some members of the community are adopting it for their daily work eg. Service Public de Wallonie - Metawal, Ifremer - Checkpoints projects, ANZLIC._
-
-* Mr [Tom Kralidis](https://www.linkedin.com/in/tomkralidis) - Senior Geospatial Architect at Meteorological Service of Canada, Lead developer at [PyCSW](https://pycsw.org/), [OsGeo](https://osgeo.org/) Charter Member and currently serve on the Board of Directors

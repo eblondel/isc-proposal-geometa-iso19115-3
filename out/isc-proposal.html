@@ -11,7 +11,7 @@
 
 <meta name="author" content="Emmanuel Blondel" />
 
-<meta name="date" content="2024-03-31" />
+<meta name="date" content="2024-04-01" />
 
 <title>ISO 19115-3 standard implementation in geometa R package</title>
 
@@ -353,7 +353,7 @@ display: none;
 <h1 class="title toc-ignore">ISO 19115-3 standard implementation in
 geometa R package</h1>
 <h4 class="author">Emmanuel Blondel</h4>
-<h4 class="date">2024-03-31</h4>
+<h4 class="date">2024-04-01</h4>
 
 </div>
 
@@ -408,6 +408,43 @@ Ellenbroek</a> - Information systems analyst at <a href="https://www.fao.org">UN
 <!-- 
 Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
 -->
+<div id="osgeo-development-community" class="section level3">
+<h3><a href="https://www.osgeo.org/">OSGeo</a> development
+community</h3>
+<ul>
+<li>Mr <a href="https://www.linkedin.com/in/tomkralidis">Tom
+Kralidis</a> - Senior Geospatial Architect at Meteorological Service of
+Canada. <a href="https://osgeo.org/">OsGeo</a> Charter Member and
+currently serving on the Board of Directors. Lead developer at <a href="https://pycsw.org/">PyCSW</a>, <a href="https://pygeoapi.io/">PyGeoapi</a> and <a href="https://geopython.github.io/pygeometa/">PyGeometa</a>. Contact: <a href="mailto:tomkralidis@gmail.com">tomkralidis@gmail.com</a> – GitHub:
+<a href="https://github.com/tomkralidis">tomkralidis</a></li>
+</ul>
+<blockquote>
+<p><em>ISO 19115-3 support is valuable to the geospatial community in
+support of the management, description, and preservation of geospatial
+data. This support exists in the Geopython community, and would be an
+asset in the R geometa implementation to achieve similar impact and
+outcomes.</em></p>
+</blockquote>
+<blockquote>
+<p><em>Tom Kralidis, Open Source Geospatial Foundation</em></p>
+</blockquote>
+<ul>
+<li>Mr <a href="https://www.linkedin.com/in/fxprunayre/">François-Xavier
+Prunayre</a> - Software Engineer, <a href="https://foss4g.org/">FOSS4G</a> developer, PSC member &amp;
+committer (GeoNetwork opensource, Talend spatial). GitHub: <a href="https://github.com/fxprunayre">fxprunayre</a></li>
+</ul>
+<blockquote>
+<p><em>ISO 19115-3 is a major step forward in geographic resources
+description by bridging various ISO models into a common entity. Data
+model (aka feature catalogue) can now be described directly in the
+metadata. Usage and quality are now 2 specific sections. ISO 19157 is
+used for quality reports and measures. ISO19115-2 for imagery is now
+part of the encoding. GeoNetwork is now supporting that standard and
+some members of the community are adopting it for their daily work eg.
+Service Public de Wallonie - Metawal, Ifremer - Checkpoints projects,
+ANZLIC.</em></p>
+</blockquote>
+</div>
 <div id="user-community" class="section level3">
 <h3>User community</h3>
 <ul>
@@ -432,32 +469,6 @@ Contact: <a href="mailto:julien.barde@ird.fr">julien.barde@ird.fr</a></p></li>
 <li><p>Ms <a href="https://agir.toulouse.hub.inrae.fr/equipes-et-membres/raynal-helene">Hélène
 Raynal</a> - Research Engineer at <a href="https://www.inrae.fr/en">INRAE (National Research Institute for
 Agriculture, Food and the Environment)</a> - Contact: <a href="mailto:helene.raynal@inrae.fr">helene.raynal@inrae.fr</a></p></li>
-</ul>
-</div>
-<div id="osgeo-development-community" class="section level3">
-<h3><a href="https://www.osgeo.org/">OSGeo</a> development
-community</h3>
-<ul>
-<li>Mr <a href="https://www.linkedin.com/in/fxprunayre/">François-Xavier
-Prunayre</a> - Software Engineer, <a href="https://foss4g.org/">FOSS4G</a> developer, PSC member &amp;
-committer (GeoNetwork opensource, Talend spatial):</li>
-</ul>
-<blockquote>
-<p><em>ISO 19115-3 is a major step forward in geographic resources
-description by bridging various ISO models into a common entity. Data
-model (aka feature catalogue) can now be described directly in the
-metadata. Usage and quality are now 2 specific sections. ISO 19157 is
-used for quality reports and measures. ISO19115-2 for imagery is now
-part of the encoding. GeoNetwork is now supporting that standard and
-some members of the community are adopting it for their daily work eg.
-Service Public de Wallonie - Metawal, Ifremer - Checkpoints projects,
-ANZLIC.</em></p>
-</blockquote>
-<ul>
-<li>Mr <a href="https://www.linkedin.com/in/tomkralidis">Tom
-Kralidis</a> - Senior Geospatial Architect at Meteorological Service of
-Canada, Lead developer at <a href="https://pycsw.org/">PyCSW</a>, <a href="https://osgeo.org/">OsGeo</a> Charter Member and currently serve
-on the Board of Directors</li>
 </ul>
 </div>
 </div>
@@ -505,11 +516,15 @@ Network - <a href="https://emodnet.ec.europa.eu/en/biology">EMODnet
 Biology</a>).</li>
 </ul>
 <p>On evolutive maintenance aspects, <em>geometa</em> has been evolving
-to introduce modern R libraries: * the migration from <a href="https://cran.r-project.org/package=XML">XML</a> package to the <a href="https://github.com/r-lib/xml2"><em>xml2</em></a> R package has
+to introduce modern R libraries:</p>
+<ul>
+<li>the migration from <a href="https://cran.r-project.org/package=XML">XML</a> package to the <a href="https://github.com/r-lib/xml2"><em>xml2</em></a> R package has
 been initiated to foster collaboration with active projects, and
-facilitate the overall maintenance of CRAN packages on the long term. *
-the introduction of <a href="https://waldo.r-lib.org/"><em>waldo</em></a> as reference for
-comparing geometa objects.</p>
+facilitate the overall maintenance of CRAN packages on the long
+term.</li>
+<li>the introduction of <a href="https://waldo.r-lib.org/"><em>waldo</em></a> as reference for
+comparing geometa objects.</li>
+</ul>
 <p>Thus, <em>geometa</em> provides an essential object-oriented data
 model in R to allow users managing easily and properly geographic
 metadata information, in particular by interacting with OGC services and
@@ -544,7 +559,7 @@ while ensuring backward compatibility with previous ISO
 <p>Stakes are high since <em>geometa</em> and the ecosystem of R
 libraries that is progressively built on top of it, provide a concrete
 toolset for national and international data managers to take over
-efficiently the management geographic information metadata, often
+efficiently the management of geographic information metadata, often
 constrained by time-consuming and tedious manual editing tasks. At
 national level, GIS managers are more and more requested by law to
 manage their geographic information by providing ISO 19115 metadata,
@@ -584,12 +599,16 @@ At a high-level address what your proposal is and how it will address the proble
 <div id="detail" class="section level2">
 <h2>Detail</h2>
 <p>The object-oriented data model developed with <a href="https://cran.r-project.org/package=R6">R6</a> will be enhanced,
-introducing the following features: * add mechanism to switch from the
-ISO 19115-1/19115-2 data model to ISO 19115-3 for handling metadata
-objects * adapt classes covered by both models to accommodate changes
-introduced with ISO 19115-3, and add new classes introduced with ISO
-19115-3 * enhance the metadata validator (based on ISO
-19115-1/19115-2/19115-3 schemas)</p>
+introducing the following features:</p>
+<ul>
+<li>add mechanism to switch from the ISO 19115-1/19115-2 data model to
+ISO 19115-3 for handling metadata objects</li>
+<li>adapt existing classes covered by both models to accommodate changes
+done with ISO 19115-3, and add new classes introduced with ISO
+19115-3</li>
+<li>enhance the metadata validator (based on ISO 19115-1/19115-2/19115-3
+schemas)</li>
+</ul>
 <!--
 Go into more detail about the specifics of the project and it delivers against the problem.
 
